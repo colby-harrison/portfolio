@@ -1,0 +1,55 @@
+body {
+    background-image: url('https://www.bluemountain.ca/-/media/blue-mountain/2400x1350/things-to-do/summer-camp/tennis_camp_for_kids_blue_mountain.jpeg?w=480&rev=38ee6e20b03c4b1b9b837eba2c42120f&hash=7E4CDC5E7BDCBCA655A956DD6F0798E0'); 
+    background-size: cover; /* Ensures the image covers the entire background */
+    background-position: center; /* Centers the image */
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Centers content horizontally */
+    align-items: center; /* Centers content vertically */
+    height: 175vh;
+    margin: 0;
+    font-family: Arial, sans-serif; /* Sets a font for the form */
+}
+
+h1, p {
+    color: white;
+}
+
+#survey-form {
+    background-color: rgba(255, 255, 255, 0.8); /* White background with some transparency */
+    padding: 20px; /* Adds padding inside the form */
+    border-radius: 8px; /* Rounds the corners of the form */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Adds a subtle shadow for depth */
+    width: 300px; /* Sets a fixed width for the form */
+}
+
+label {
+    display: block; /* Makes each label take up the full width */
+    margin-top: 10px; /* Adds space above each label */
+}
+
+input[type="text"],
+input[type="email"],
+input[type="number"],
+textarea,
+select {
+    width: 100%; /* Makes input fields full width */
+    padding: 8px; /* Adds padding inside input fields */
+    margin-top: 5px; /* Adds space above input fields */
+    border: 1px solid #ccc; /* Adds a light border */
+    border-radius: 4px; /* Rounds the corners of the input fields */
+}
+
+#submit {
+    background-color: #007BFF; /* Blue background color */
+    color: white; /* White text color */
+    border: none; /* Removes the border */
+    padding: 10px; /* Adds padding */
+    border-radius: 4px; /* Rounds the corners */
+    cursor: pointer; /* Changes cursor to pointer on hover */
+    margin-top: 10px; /* Adds space above the button */
+}
+
+#submit:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+}

@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>EHS Tennis Survey Form</title>
+    <link rel="stylesheet" href="style1.css">
+</head>
+<body>
+    <h1 id="title"><b>EHS Tennis Survey Form</b></h1>
+    <p id="description"><b>Please complete this form with accurate and correct information</b></p>
+    
+    <form id="survey-form">
+        <label id="name-label">Name</label>
+        <input id="name" type="text" placeholder="Enter your full name" required>
+        
+        <label id="email-label">Email</label>
+        <input id="email" type="email" placeholder="Enter your email here" required>
+        
+        <label id="number-label">Age</label>
+        <input id="number" type="number" min="1" max="99" placeholder="Enter your age" required>
+        
+        <label for="dropdown">How many years of experience do you have playing tennis?</label>
+        <select id="dropdown" name="options">
+            <option value="option1">I have not played</option>
+            <option value="option2">1-2 years</option>
+            <option value="option3">3-4 years</option>
+            <option value="option4">5+ years</option>
+        </select>
+        
+        <label>Who is your favorite professional tennis player?</label>
+        <label>
+            <input type="radio" name="player" value="Roger Federer">Roger Federer
+        </label>
+        <label>
+            <input type="radio" name="player" value="Rafael Nadal">Rafael Nadal
+        </label>
+        <label>
+            <input type="radio" name="player" value="Serena Williams">Serena Williams
+        </label>
+        <label>
+            <input type="radio" name="player" value="Novak Djokovic">Novak Djokovic
+        </label>
+        <label>
+            <input type="radio" name="player" value="Other">Other
+        </label>
+        
+        <label>What skills do you need to work on the most? Select all that apply.</label>
+        <input id="checkbox1" type="checkbox" value="Serve & Return">Serve & Return<br>
+        <input id="checkbox2" type="checkbox" value="Forehands">Forehands<br>
+        <input id="checkbox3" type="checkbox" value="Backhands">Backhands<br>
+        
+        <label for="feedback">Your Feedback:</label>
+        <textarea id="feedback" name="feedback" rows="4" cols="50" placeholder="Enter your feedback here..."></textarea>
+        
+        <button id="submit" type="submit">Submit</button>
+    </form>
+</body>
+</html>
